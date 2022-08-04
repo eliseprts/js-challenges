@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizz JS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <h1><span>Quizz</span> de culture générale 📝</h1>
+
+    <div class="globalContainer">
+
+      <form action="" class="quizForm">
+
+        <!-- Question 1 -->
+        <div class="questionBlock">
+          <h4>Qui est sacré empereur de France le 2 décembre 1804 ?</h4>
+          <!-- Answers -->
+          <div>
+            <input type="radio" id="Clovis" name="q1" value="a" checked>
+            <label for="Clovis">Clovis</label>
+          </div>
+          <div>
+            <input type="radio" id="Lincoln" name="q1" value="b">
+            <label for="Lincoln">Abraham Lincoln</label>
+          </div>
+          <div>
+            <input type="radio" id="Napoléon" name="q1" value="c">
+            <label for="Napoléon">Napoléon Bonaparte</label>
+          </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="questionBlock">
+          <h4>Quand la déclaration d'indépendance des Etats-Unis a-t-elle été votée ?</h4>
+          <!-- Answers -->
+          <div>
+            <input type="radio" id="date1" name="q2" value="a" checked>
+            <label for="date1">4 juillet 1776</label>
+          </div>
+          <div>
+            <input type="radio" id="date2" name="q2" value="b">
+            <label for="date2">18 avril 1856</label>
+          </div>
+          <div>
+            <input type="radio" id="date3" name="q2" value="c">
+            <label for="date3">30 juin 1925</label>
+          </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="questionBlock">
+          <h4>Quand a eu lieu la chute de l'Empire romain d'Occident ?</h4>
+          <!-- Answers -->
+          <div>
+            <input type="radio" id="date4" name="q3" value="a" checked>
+            <label for="date4">15 ap. J.-C.</label>
+          </div>
+          <div>
+            <input type="radio" id="date5" name="q3" value="b">
+            <label for="date5">476 ap. J.-C.</label>
+          </div>
+          <div>
+            <input type="radio" id="date6" name="q3" value="c">
+            <label for="date6">740 av. J.-C.</label>
+          </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="questionBlock">
+          <h4>Quelle est la capitale de la Slovénie ?</h4>
+          <!-- Answers -->
+          <div>
+            <input type="radio" id="Ljubljana" name="q4" value="a" checked>
+            <label for="Ljubljana">Ljubljana</label>
+          </div>
+          <div>
+            <input type="radio" id="Belgrade" name="q4" value="b">
+            <label for="Belgrade">Belgrade</label>
+          </div>
+          <div>
+            <input type="radio" id="Bratislava" name="q4" value="c">
+            <label for="Bratislava">Bratislava</label>
+          </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="questionBlock">
+          <h4>Combien d'habitants compte l'Irlande en 2020 ?</h4>
+          <!-- Answers -->
+          <div>
+            <input type="radio" id="m1" name="q5" value="a" checked>
+            <label for="m1">1,365 Million</label>
+          </div>
+          <div>
+            <input type="radio" id="m2" name="q5" value="b">
+            <label for="m2">21 Millions</label>
+          </div>
+          <div>
+            <input type="radio" id="m3" name="q5" value="c">
+            <label for="m3">4,9 Millions</label>
+          </div>
+        </div>
+
+        <button type="submit">Valider <span>&#10004;</span></button>
+
+      </form>
+
+      <div class="results">
+        <h2>Cliquez sur <span>valider</span> pour voir les <span>résultats</span>.</h2>
+        <p class="mark"></p>
+        <p class="help"></p>
+      </div>
+
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
