@@ -19,6 +19,7 @@ _Repo created for the course [20 projets en JavaScript](https://www.udemy.com/co
 
 - [x] [BMI calculator](/1.%20IMC/)
 - [x] [Quiz](/2.%20Quizz/)
+- [x] [WikiApp](/3.%20WikiApp/)
 - [ ] Cookies creator
 - [ ] Weather app
 - [ ] Gradient creator
