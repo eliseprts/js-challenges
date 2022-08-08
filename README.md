@@ -21,7 +21,7 @@ _Repo created for the course [20 projets en JavaScript](https://www.udemy.com/co
 - [x] [Quiz](/2.%20Quizz/)
 - [x] [WikiApp](/3.%20WikiApp/)
 - [x] [Cookies creator](/4.%20Cookies/)
-- [ ] Weather app
+- [ ] [Weather app](/5.%20WeatherApp/)
 - [ ] Gradient creator
 - [ ] Pomodoro app
 - [ ] Form with validation
