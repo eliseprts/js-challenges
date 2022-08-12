@@ -1,5 +1,5 @@
-let initialTime = 5;
-let restTime = 5;
+let initialTime = 1800;
+let restTime = 300;
 
 // Display formatted time
 function returnFormattedTime(time) {
