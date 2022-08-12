@@ -23,7 +23,7 @@ _Repo created for the course [20 projets en JavaScript](https://www.udemy.com/co
 - [x] [Cookies creator](/4.%20Cookies/)
 - [x] [Weather app](/5.%20WeatherApp/)
 - [x] [Gradient creator](/6.%20Gradient/)
-- [ ] Pomodoro app
+- [x] [Pomodoro app](/7.%20Pomodoro/) (with some changes for the style)
 - [ ] Form with validation
 - [ ] Memory game
 - [ ] Inifinte scroll
