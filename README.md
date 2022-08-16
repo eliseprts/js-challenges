@@ -24,7 +24,7 @@ _Repo created for the course [20 projets en JavaScript](https://www.udemy.com/co
 - [x] [Weather app](/5.%20WeatherApp/)
 - [x] [Gradient creator](/6.%20Gradient/)
 - [x] [Pomodoro app](/7.%20Pomodoro/) (with some changes for the style)
-- [ ] Form with validation
+- [x] [Form with validation](/8.%20ValidationForm/) (with some changes for the style)
 - [ ] Memory game
 - [ ] Inifinte scroll
 - [ ] Stylish and animated slider
